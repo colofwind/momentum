@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMjA0MDZfMjY2/MDAxNjQ5MTg3OTg5NjUz.YKj8vHBlPuGU5v2DHbflERdb23jzYFfYA2GSHkKxM_cg.Yn9k4Qh7W6oEk2ITutqs8IU6uE_13eNb8nA2b_PFBqQg.JPEG.niceguy00/Seul%EC%BB%B4_%EC%B0%A8%EC%95%A4%EB%B0%95_%EC%95%84%EC%9D%B4%EC%9C%A001.jpg?type=w800");
+            background-position: center;
+
+            color: white;
+        }
+
+        .main {
+            width: 100vw;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .time {
+            font-size: 120px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+        }
+
+        .todo {
+            font-size: 30px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">Hello Jin!!</div>
+        <div class="todo">전자책 끝내기</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+
+</body>
+
+</html>
